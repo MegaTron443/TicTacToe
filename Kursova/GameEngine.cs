@@ -270,7 +270,6 @@ public class GameEngine
             }
             else
             {
-                // 5. Switch turns
                 isRedTurn = !isRedTurn;
             }
         }
