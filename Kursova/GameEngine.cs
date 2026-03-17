@@ -113,7 +113,7 @@ public class GameEngine
 
     public Color CheckForWin()
     {
-        int[] directions = { 1, 3, 9, 4, 2, 10, 12, 13, 14, 8, 7, 5, 6 };
+        int[] directions = { 1, 3, 9, 4, 2, 10, 12, 13, 14, 8, 7, 11, 5, 6 };
 
         for (int i = 0; i < Cells.Length; i++)
         {
