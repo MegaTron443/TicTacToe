@@ -28,6 +28,11 @@ public class Menu
         {
             CurrentState = GameState.Pve;
         }
+
+        if (GuiButton(new Rectangle(centerX, sh / 2 + 140, btnWidth, 50), "Exit Game"))
+        {
+            CurrentState = GameState.Quit;
+        }
     }
 
     private bool GuiButton(Rectangle rect, string text)

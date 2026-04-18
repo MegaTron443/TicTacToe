@@ -27,6 +27,11 @@ namespace Kursova
 
             while (!Raylib.WindowShouldClose())
             {
+                if (gameMenu.CurrentState == GameState.Quit)
+                {
+                    break;
+                }
+
                 if (Raylib.IsMouseButtonPressed(MouseButton.Right))
                 {
                     Raylib.DisableCursor();

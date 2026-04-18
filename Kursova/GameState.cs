@@ -6,4 +6,5 @@ public enum GameState
     Pvp, 
     Pve, 
     Ending,
+    Quit,
 }
